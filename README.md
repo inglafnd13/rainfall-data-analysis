@@ -2,23 +2,13 @@
 
 ## Project Overview
 
-This project focuses on analyzing rainfall data across four regions in Indonesia: **Siak, Pekanbaru, Manggala, and Kotabaru**.
+This project explores rainfall data across four regions: **Siak, Pekanbaru, Manggala, and Kotabaru**.
 
-The analysis aims to explore rainfall data characteristics, assess data availability and completeness, identify potential outliers, and visualize rainfall patterns over different observation periods.
-
-This project was developed as part of an internship at **PT SMART Tbk – SMART Research Institute**, within the Data Intelligence & Analytics – Climatology division.
-
-## Project Objectives
-
-- Explore and understand rainfall data characteristics across four observation regions.
-- Examine the historical data coverage and observation periods of each region.
-- Assess data completeness and identify missing observations.
-- Investigate data distribution and detect potential outliers.
-- Present analytical findings through data visualization and an interactive dashboard.
+The analysis focuses on understanding rainfall data characteristics, examining historical observation periods, assessing data completeness, and exploring data distribution and potential outliers. The results are presented through data analysis and an interactive Tableau dashboard.
 
 ## Study Areas
 
-The analysis covers four observation regions:
+The analysis covers four regions with different observation periods:
 
 | Region | Observation Period |
 |---|---|
@@ -27,7 +17,13 @@ The analysis covers four observation regions:
 | Manggala | 1903–1975 |
 | Kotabaru | 1927–1998 |
 
-*Note: Observation periods are based on the current dashboard and should be verified against the original dataset.*
+## Project Objectives
+
+- Explore rainfall data characteristics across the four regions.
+- Examine the historical observation periods and data availability.
+- Assess data completeness and identify missing observations.
+- Analyze rainfall data distribution and identify potential outliers.
+- Visualize rainfall data characteristics to support further analysis.
 
 ## Tools & Technologies
 
@@ -35,47 +31,41 @@ The analysis covers four observation regions:
 - **Pandas:** Data manipulation and analysis.
 - **Matplotlib:** Data visualization.
 - **Microsoft Excel:** Data inspection and supporting data processing.
-- **Tableau Public:** Interactive dashboard development and visualization.
+- **Tableau Public:** Interactive dashboard development.
 
-## Analytical Workflow
+## Analysis Workflow
 
 ### 1. Data Exploration
-Explore the available rainfall datasets and understand their structure, variables, and historical observation periods.
+Explore the rainfall datasets to understand their structure, variables, and observation periods across the four regions.
 
 ### 2. Data Completeness Assessment
-Examine missing observations and evaluate data availability across the four regions through gap-filling analysis.
+Examine data availability, identify missing observations, and assess the completeness of rainfall records.
 
-### 3. Distribution and Outlier Analysis
-Investigate rainfall data distributions and identify potential outliers that may require further examination.
+### 3. Data Distribution and Outlier Analysis
+Explore rainfall data distribution and identify potential outliers for further examination.
 
 ### 4. Data Visualization
-Develop visual representations to communicate data characteristics, observation coverage, and potential data quality issues.
+Present analytical findings through visualizations to make rainfall data characteristics easier to understand.
 
 ### 5. Interactive Dashboard
-Build a Tableau dashboard to present the analysis results and enable users to explore information by observation region.
+Develop a Tableau dashboard to summarize the analysis and provide an interactive overview of the four regions.
 
 ## Dashboard Components
 
-The Tableau dashboard consists of four main components:
+The interactive dashboard includes:
 
-- **Location Overview:** Displays the four observation regions.
-- **Observation Period:** Summarizes the historical data coverage of each region.
-- **Gap Filling:** Presents information related to missing data and data completeness.
-- **Data Distribution & Outliers:** Visualizes rainfall data distribution and potential outliers.
+- **Location Overview:** Displays the four analyzed regions.
+- **Observation Period:** Shows the available historical data periods for each region.
+- **Gap Filling:** Presents the data completeness assessment.
+- **Data Distribution & Outliers:** Displays rainfall data distribution and potential outliers.
 
 ## Repository Contents
 
-- `rainfall_pattern_analysis.ipynb` – Jupyter Notebook containing the analysis workflow.
+| File | Description |
+|---|---|
+| `rainfall_pattern_analysis.ipynb` | Jupyter Notebook containing the rainfall data analysis workflow. |
+| `README.md` | Project documentation. |
 
-## Project Context
+## Key Focus
 
-This project was developed during an internship at PT SMART Tbk – SMART Research Institute.
-
-The analysis demonstrates the application of data processing, exploratory data analysis, data quality assessment, and visualization techniques in climatological research.
-
-## Author
-
-**Ingla Finda**
-
-- GitHub: [inglafnd13](https://github.com/inglafnd13)
-- LinkedIn: [ingla-finda](https://www.linkedin.com/in/ingla-finda/)
+This project demonstrates the application of data exploration, data quality assessment, statistical analysis, and data visualization techniques in exploring rainfall patterns across multiple regions.
